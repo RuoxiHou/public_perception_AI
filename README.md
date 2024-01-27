@@ -9,13 +9,13 @@ Background research: "AI systems can now pass medical or legal exams, increase w
 
 Based on the background that the Artificial Intelligence technology is rapidly developing in a relatively short time, this project is dedicated to finding out the public opinion on AI in different fields from customers' perspective to provide insights for Venture Capital Companies in terms of their investment on AI industry. As one of the world's biggest VC firms, Sequoia Capital expanded its portfolio in artificial intelligence industry. In 2023, nearly 60% of the company's new investments are in AI startups.
 
-Data Souce:
-1. For the public opinion, a survey is created manually and distributed to the public on the 2 survey platforms: Quatrics(globaly) and SurveyMonkey(solely to the US). The survey consists demographic data collection and 5 questions about AI from different angles. The anonymous link to the survey is https://qualtricsxmw8jmz7ws2.qualtrics.com/jfe/form/SV_d9Z7bWloIVdkFQa
-2. For the catalog of AI companies invested by Sequoia, Web scraping by using Selenium is performed in the meanwhile.
+Data Source:
+1. For the public opinion, a survey is created manually and distributed to the public on the 2 survey platforms: Qualtrics(globally) and SurveyMonkey(solely to the US). The survey consists demographic data collection and 5 questions about AI from different angles. The anonymous link to the survey is https://qualtricsxmw8jmz7ws2.qualtrics.com/jfe/form/SV_d9Z7bWloIVdkFQa
+2. For the catalogue of AI companies invested by Sequoia, Web scraping by using Selenium is performed in the meanwhile.
 3. For the data of the venture capital industry in the US, free open dataset is from https://www.kaggle.com/datasets/adnananam/largest-us-venture-funding-deals-of-2023
 
 Data Wrangling:
-1. Survey respondenses: shortening the column names, standardizing the ratings from the two platforms and combining the two datasets into one and save the result into a csv file.
+1. Survey response: shortening the column names, standardizing the ratings from the two platforms and combining the two datasets into one and save the result into a csv file.
 2. Company information: re-categorizing the companies into 2 levels. 
 1st level: Enterprise(product is designed for enterprise directly), Consumer(product is designed for individual consumers directly), AI/ML(product's target audience is not defined)
 2nd level: Customer relationship, Healthcare, Self-driving technology, Law firm, and Other
@@ -57,7 +57,7 @@ Interesting EDA findings:
 #rating of customer_relationship seems to have a high correlation with healthcare
 #rating of self_driving seems to have a high correlation with law_firm
 
-
+Tableau Dashboard: https://public.tableau.com/views/PublicperceptionofAI/Dashboard_US_Funding_Deals_2023SequoiasfundinginAI?:language=en-US&:display_count=n&:origin=viz_share_link
 Background knowledge on the investment stages from Sequoia:
 Arc:
 
