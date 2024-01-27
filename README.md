@@ -37,19 +37,25 @@ Specifically, the ratings between customer_relationship and law_firm, and the ra
 
 Estimated rating for the population:
 
-'The predicted rating with 95% Confidence Interval for knowledge of the public is in the range': (44.93811056095711,   52.23472894521573),
- 'The predicted rating with 95% Confidence Interval for general of the public is in the range': (46.79471861652086,  55.378120889651974),
- 'The predicted rating with 95% Confidence Interval for customer_relationship of the public is in the range': (49.23753358654359,   58.16987382086381),
- 'The predicted rating with 95% Confidence Interval for healthcare of the public is in the range': (43.890102633029684,   52.69014428055057),
- 'The predicted rating with 95% Confidence Interval for self_driving_tech of the public is in the range': (39.65663008049801,   48.62732053678594),
- 'The predicted rating with 95% Confidence Interval for law_firm of the public is in the range': (39.35171696879666,   47.710011426265076)
+'The estimated rating with 95% Confidence Interval for knowledge of the public is in the range': (44.93811056095711,   52.23472894521573),
+ 'The estimated rating with 95% Confidence Interval for general of the public is in the range': (46.79471861652086,  55.378120889651974),
+ 'The estimated rating with 95% Confidence Interval for customer_relationship of the public is in the range': (49.23753358654359,   58.16987382086381),
+ 'The estimated rating with 95% Confidence Interval for healthcare of the public is in the range': (43.890102633029684,   52.69014428055057),
+ 'The estimated rating with 95% Confidence Interval for self_driving_tech of the public is in the range': (39.65663008049801,   48.62732053678594),
+ 'The estimated rating with 95% Confidence Interval for law_firm of the public is in the range': (39.35171696879666,   47.710011426265076)
 
 Interpretation on the prediction:
-1. The public believe they know a moderate amount of knowledge about AI
+1. The public believe they know a less-than-moderate amount of knowledge about AI
 2. It's possible that the public are willing to use AI to resolve practical issues 
 3. The public are more likely to use AI for the purpose of Customer Relationship Management than other 3 types of AI
 4. The public are less likely to use AI for Self-Driving Technology and Law Firm
 
+Interesting EDA findings:
+#Male has a higher tendency of using AI for all 5 scenarios
+#the higher the education level is, the more likely the respondent is to use AI in all 5 scenarios.
+#knowledge does not seem to have very strong correlation with any of the ratings
+#rating of customer_relationship seems to have a high correlation with healthcare
+#rating of self_driving seems to have a high correlation with law_firm
 
 
 Background knowledge on the investment stages from Sequoia:
